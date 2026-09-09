@@ -2,6 +2,14 @@
 
 ### Bridging Citizens to the Benefits They Deserve
 
+🚀 **[Live Demo](https://asma31-pixel-civicbridge-ai-app-29auvp.streamlit.app/)**
+
+
+- Matching criteria
+- Missing information or documents
+- Application guidance
+- Multilingual citizen-friendly explanations
+
 CivicBridge AI is an AI-powered citizen benefits navigator designed to make government welfare schemes, subsidies, scholarships and public services easier to discover and understand.
 
 ## Problem
@@ -41,31 +49,43 @@ The system converts the information into structured values such as age, occupati
 
 ## Prototype Architecture
 
-Citizen Input  
-↓  
-Voice / Document / Structured Information  
-↓  
-Information Extraction  
-↓  
-Citizen Profile  
-↓  
-AI Scheme Matching Engine  
-↓  
-Eligibility & Relevance Analysis  
-↓  
-Explanation + Missing Documents  
-↓  
-Application Guidance
+Citizen Input
 
+↓
+
+Natural-Language / Voice Transcript / Structured Information
+
+↓
+
+Information Extraction
+
+↓
+
+Citizen Profile
+
+↓
+
+AI Scheme Matching Engine
+
+↓
+
+Eligibility & Relevance Analysis
+
+↓
+
+Explanation + Commonly Required Documents
+
+↓
+
+Application Guidance
 ## Technology Stack
 
 - Python
 - Streamlit
-- Pandas
 - Scikit-learn
 - Natural Language Processing
+- Rule-based eligibility matching
 - IBM Bob
-- JSON-based scheme knowledge base
 
 ## Privacy & Security
 
